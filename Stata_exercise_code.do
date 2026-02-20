@@ -1,7 +1,7 @@
 /* define the folder path and import data */
 clear all
-global file_path "/Users/fengcheng/Downloads/consumption.txt"
-global result_path "/Users/fengcheng/Downloads"
+global file_path "/your_dataset_file_path_here"
+global result_path "/your_result_export_path_here"
 
 import delimited "$file_path",  delimiter(space, collapse) varnames(1) 
 
